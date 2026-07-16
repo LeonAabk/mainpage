@@ -167,27 +167,29 @@ header p {
     margin: 0;
 }
 
-/* Hovedboksen (Kortet) */
+/* Hovedboksen (Kortet) - MØRKT TEMA */
 .vipps-card-container {
-    background: white;
+    background: #1e293b; /* Mørk bakgrunn */
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Litt dypere skygge */
     text-align: center;
-    border: 2px solid #ff5b24; /* Vipps-oransje ramme */
-    max-width: 800px; /* Juster denne etter hvor bred du vil ha boksen */
-    margin: 40px auto; /* Sentrerer boksen på siden */
+    border: 2px solid #ff5b24; /* Beholder Vipps-rammen */
+    max-width: 800px;
+    margin: 40px auto;
     font-family: sans-serif;
 }
 
+/* Overskrift */
 .vipps-card-container h2 {
-    color: #1e293b;
+    color: #f8fafc; /* Hvit tekst */
     margin-top: 0;
     margin-bottom: 10px;
 }
 
+/* Vanlig tekst */
 .vipps-card-container p {
-    color: #334155;
+    color: #cbd5e1; /* Lys grå tekst */
     line-height: 1.5;
 }
 
@@ -211,12 +213,12 @@ header p {
 .vipps-qr-img {
     max-width: 150px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
 }
 
 .vipps-help-text {
     font-size: 0.85rem;
-    color: #64748b !important;
+    color: #94a3b8 !important; /* Lysere grå for hjelpeteksten */
     margin-top: 10px;
 }
 
@@ -229,7 +231,7 @@ header p {
 
 .vipps-number {
     font-size: 2.8rem;
-    color: #ff5b24;
+    color: #ff5b24; /* Beholder Vipps-oransje her */
     margin: 5px 0 20px 0;
     letter-spacing: 2px;
 }
@@ -250,7 +252,7 @@ header p {
 .btn-vipps:hover {
     background-color: #e04a1a;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(224, 74, 26, 0.3);
+    box-shadow: 0 4px 8px rgba(224, 74, 26, 0.4);
 }
 
 .btn-vipps:active {
