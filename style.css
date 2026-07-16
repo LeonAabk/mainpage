@@ -167,6 +167,96 @@ header p {
     margin: 0;
 }
 
+/* Hovedboksen (Kortet) */
+.vipps-card-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #ff5b24; /* Vipps-oransje ramme */
+    max-width: 800px; /* Juster denne etter hvor bred du vil ha boksen */
+    margin: 40px auto; /* Sentrerer boksen på siden */
+    font-family: sans-serif;
+}
+
+.vipps-card-container h2 {
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.vipps-card-container p {
+    color: #334155;
+    line-height: 1.5;
+}
+
+/* Layout for QR og tekst */
+.vipps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* QR-kode seksjon */
+.vipps-qr-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vipps-qr-img {
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.vipps-help-text {
+    font-size: 0.85rem;
+    color: #64748b !important;
+    margin-top: 10px;
+}
+
+/* Tekst og knapp seksjon */
+.vipps-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vipps-number {
+    font-size: 2.8rem;
+    color: #ff5b24;
+    margin: 5px 0 20px 0;
+    letter-spacing: 2px;
+}
+
+/* Vipps-knappen */
+.btn-vipps {
+    background-color: #ff5b24;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-vipps:hover {
+    background-color: #e04a1a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(224, 74, 26, 0.3);
+}
+
+.btn-vipps:active {
+    transform: translateY(0);
+}
+
 /* Footer */
 footer {
     text-align: center;
